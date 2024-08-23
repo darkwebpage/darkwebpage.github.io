@@ -1,0 +1,87 @@
+body {
+    background-color: #121212;
+    color: #00FF41;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    border: 1px solid #00FF41;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+#hacker-text {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.downloads {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li a {
+    color: #00FF41;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.chat {
+    margin-top: 20px;
+    background-color: #1E1E1E;
+    padding: 15px;
+    border: 1px solid #00FF41;
+    text-align: left;
+}
+
+#chatbox {
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #00FF41;
+    padding: 10px;
+    background-color: #121212;
+}
+
+#chatlogs {
+    color: #00FF41;
+    font-size: 14px;
+}
+
+#chatInput {
+    width: 80%;
+    padding: 5px;
+    background-color: #1E1E1E;
+    border: 1px solid #00FF41;
+    color: #00FF41;
+}
+
+#sendBtn {
+    padding: 5px 10px;
+    background-color: #00FF41;
+    border: none;
+    color: #121212;
+    cursor: pointer;
+}
+
+#sendBtn:hover {
+    background-color: #00DD37;
+}
